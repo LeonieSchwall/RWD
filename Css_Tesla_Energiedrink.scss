@@ -1,0 +1,122 @@
+
+#stage {
+    background-image: url("../img/stage3b.png");
+    background-size: cover;
+    background-position: center;
+
+    @include media-breakpoint-down(lg) {
+        height: 100vh;
+       
+        .container {
+
+             .row {
+                 padding: 0px;
+             }
+        }
+       
+    }
+
+    h1#headline {
+        padding-top: 15%;
+        color: black;
+
+        @include media-breakpoint-up(lg) {
+            padding-top: 5%;
+        }    
+
+    }
+
+    .facts {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 50px;
+        padding:30px;
+        
+        @include media-breakpoint-up(lg) {
+            bottom: 10%;
+        }
+
+        @include media-breakpoint-up(xl) {
+            .col-md-8 {
+                padding: 0 80px;
+            }
+        }
+
+        @include media-breakpoint-up(xxl) {
+            .col-md-8 {
+                padding: 0 180px;
+            }
+        }
+
+        .col-4 {
+            padding: 0px 0 5px;
+
+            .fact {
+                color: black;
+            }
+            
+
+
+            &:first-of-type, &:nth-of-type(2) {
+                border-right: 1px solid black;
+            }
+        }
+            
+        .col-12 {
+            text-align:center;
+            
+            .btn.btn-primary {
+                color: black;
+                border-color: black;
+                position: relative;
+                top: 50%;
+                transform: translate(0, -50%);
+
+                &:hover {
+                    border-color: black;
+                    background: black;
+                    color: white;
+                }
+
+            }
+        }
+
+        .btn.btn-primary {
+            width:100%;
+
+            margin-top: 10px;
+        
+            @media screen and (min-width: 440px) {
+                width: 380px;
+            }
+        
+            @include media-breakpoint-up(md) {
+                width: unset;
+                margin-top: 0;
+           }
+        
+        }
+
+    }
+
+
+    .down {
+        width: 15px;
+        height: 15px;
+        border-bottom:2px solid black;
+        border-right: 2px solid black;
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: rotate(45deg) translate(-50%);
+        z-index: 99999;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 600px){
+    img {
+       width: 100% !important;
+   }

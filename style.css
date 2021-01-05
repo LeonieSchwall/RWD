@@ -1,0 +1,105 @@
+h2 {
+    font-size: 17px !important;
+    margin-bottom: 0px;
+    font-weight: 300;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-weight: 600;
+
+}
+
+h1#headline {
+    text-align:center;
+    font-weight: 600;
+    color: white;
+    font-size: 40px; 
+}
+
+
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #666;
+}
+
+
+.btn.btn-primary {
+    background: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 100px;    
+}
+    
+.btn.btn-primary:hover {
+        border-color: black;
+        background: black;
+        color: white;
+    }
+
+#stage h1#headline {
+    bottom: 160px;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+#stage {
+    background-image: url("./header-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+
+ .facts {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 50px;
+    padding:30px;
+       
+}
+
+ .facts .fact:first-of-type, .facts .fact:nth-of-type(2) {
+    border-right: 1px solid black;
+}
+
+.down {
+    width: 15px;
+    height: 15px;
+    border-bottom:2px solid black;
+    border-right: 2px solid black;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: rotate(45deg) translate(-50%);
+    z-index: 99999;
+    cursor: pointer;
+}
+
+#sec2{
+    background-image: url(acao-glas-dose-pflanze.jpg);
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+}
+
+#sec2{
+    position: relative;
+}
+
+
+@media (max-width: 600px){
+    img {
+       width: 100% !important;
+   }

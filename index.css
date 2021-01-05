@@ -1,0 +1,733 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box !important;
+  scroll-behavior: smooth !important;
+}
+div {
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  scroll-behavior: smooth !important;
+}
+
+.main-navigation {
+  position: fixed;
+  display: flex;
+  display: flow-root;
+}
+.logo {
+  float: left;
+  left: 0;
+  position: fixed;
+}
+.logo-wrapper {
+  width: 200px;
+  height: auto;
+}
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.menu {
+  float: right;
+  width: 200px;
+  right: 0;
+  position: fixed;
+  text-align: right;
+  padding: 5px;
+}
+.konto {
+  font-weight: bold;
+  padding-right: 5px;
+}
+.fa-shopping-cart {
+padding-right: 5px;
+  
+  
+
+}
+
+/* Schriften*/
+.Theme1 {
+  font-size: 17px;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #212529;
+  letter-spacing: 1px;
+  margin-left: 24px;
+}
+.werbung1 {
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-bottom: 25px;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+.text1 {
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  padding-left: 24px;
+}
+
+.Theme {
+  font-size: 17px;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #212529;
+  letter-spacing: 1px;
+}
+.Theme3 {
+  font-size: 17px;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #212529;
+  letter-spacing: 1px;
+  padding-left: 24px;
+}
+
+.inhalt-section3 {
+  padding-left: 70px;
+  padding-top: 0.83em;
+  position: relative;
+}
+.unique-container {
+  padding: 40px 120px;
+}
+
+.werbung {
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding-bottom: 25px;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+.werbung3 {
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding-bottom: 25px;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  padding-left: 24px;
+}
+.werbung-last {
+  display: block;
+}
+.text {
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.text3 {
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  padding-left: 24px;
+  
+}
+/* Section 1*/
+.section1 {
+  background-image: url(./header-background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  padding: 0 14px;
+  margin: 0 auto;
+  position: relative;
+  top: 60%;
+}
+.topic {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 15px;
+}
+.list {
+  display: flex;
+  margin-top: 5%;
+}
+.part {
+  width: 25%;
+  display: block;
+  padding: 0 7px;
+  text-align: center;
+}
+.border-right {
+  border-right: 2px black solid;
+}
+.tile-title {
+  font-size: 18px;
+  font-weight: bold;
+  font-weight: 30px;
+  display: block;
+  padding: 0 0 7px 0;
+}
+.tile-text {
+  font-size: 12px;
+  display: block;
+  padding: 7px 0 0 0;
+}
+.buy-button {
+  font-size: 11px;
+  font-family: Montserrat;
+  display: flex;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: 2px black solid;
+  background-color: transparent;
+  padding: 7px 25px;
+}
+.buy-button2 {
+  font-size: 11px;
+  font-family: Montserrat;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 6%;
+  border-radius: 20px;
+  border: 2px black solid;
+  background-color: transparent;
+  padding: 7px 25px;
+  align-content: flex-end;
+  /* text-align: center; */
+}
+.sterne {
+  margin-top: -2px;
+}
+.buttonblack {
+  font-size: 11px;
+  font-family: Montserrat;
+  display: flex;
+  margin: auto 0;
+  border-radius: 20px;
+  border: 2px black solid;
+  background-color: black;
+  padding: 7px 25px;
+  
+}
+.button-text2 {
+  color: white;
+}
+.button {
+  font-size: 14px;
+  display: flex;
+  border-radius: 20px;
+  border-color: none;
+  fill: none;
+  background-color: transparent;
+  margin-top: 20px;
+  justify-content: center;
+}
+.button-text3 {
+  color: black;
+  display: flex;
+  font-size: 12px;
+}
+.arrow-down {
+  text-align: center !important;
+  font-size: 30px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 10%;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.container-section-2 {
+  width: 33%;
+  padding: 0 50px;
+}
+.h4 {
+  text-align: center;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  padding-bottom: 18px;
+}
+.Sternebox {
+  background-color: lightgrey;
+  padding: 24px;
+  border-radius: 15px;
+  margin-top: 6%;
+  width: 310px;
+}
+
+.sterne-titel {
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.container2-section2 {
+  width: 67%;
+  background-color: lightgray;
+}
+.section2 {
+  height: 100vh;
+}
+.height-100 {
+  height: 100vh;
+}
+.dots,
+.dots2,
+.dots3 {
+  position: absolute;
+}
+
+/* Section 2 Dots und Striche */
+.annots-container {
+  background-image: url(./can-fruit-quince.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  align-self: center;
+  display: block;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.annots .annot-first,
+.annots .annot-second,
+.annots .annot-third {
+  position: absolute;
+  z-index: 99;
+}
+
+.annot-text {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+}
+
+.annot-text span {
+  position: absolute;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  width: auto;
+  color: rgba(black, 0.7);
+}
+
+.annot-text span:before {
+  width: 3px;
+  background: black;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: -10px;
+  z-index: 9999999;
+}
+
+.annot-text span:after {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border: 3px solid black;
+  border-radius: 15px;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: -16.5px;
+  z-index: 9999999;
+}
+
+.annot-first {
+  left: 30%;
+  top: 3%;
+  height: 44%;
+}
+
+.annot-second {
+  left: 45%;
+  top: 62%;
+
+  height: 37%;
+}
+
+.annot-third {
+  left: 62%;
+  top: 6%;
+  height: 54%;
+}
+
+/* Section 2 Sternebox*/
+
+.sternebox-wrapper {
+  padding: 15px;
+}
+.sterne-titel {
+  /* min-width: 110px; */
+  text-align: left;
+  float: left;
+}
+.display-flow-root {
+  display: flow-root;
+}
+.sterne {
+  float: right;
+  text-align: left;
+}
+
+.container-section3 {
+  background-image: url(./acao-glas-dose-pflanze.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list3 {
+  display: flex;
+  margin-top: 5%;
+  padding: 0 14px;
+  margin: 0 auto;
+  position: relative;
+  top: 85%;
+  justify-content: center;
+}
+.part2 {
+  width: 15%;
+  display: block;
+  padding: 0 7px;
+  text-align: center;
+}
+
+
+  
+.section4 {
+  background-color: black;
+  color: white;
+}
+.fa-times{
+  text-align: right !important;
+  font-size: 30px;
+  display: flex !important;
+  justify-content: right !important;
+  align-items: right !important;
+  margin-top: 3%;
+  padding: 10px;
+}
+
+.container-section5 {
+  width: 67%;
+  background-image: url(./facebook-placeholder-range.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container2-section5 {
+  width: 33%;
+  position: absolute;
+  left: 67%;
+  margin: auto;
+  padding: 24px;
+}
+.bild-selection-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30%;
+  margin-top: 30px;
+}
+.bild-selection-wrapper {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
+.bild-selection-bild {
+  width: 100%;
+  
+  object-fit: contain;
+  max-height: 90px;
+  min-height: 90px;
+}
+
+.info-box {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+}
+.section6 {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+.prev {
+  color: white;
+}
+.subtheme{
+  color: #717171;
+  font-size: 26px;
+  margin-block-start: 0!important;
+}
+.Model{
+  font-size: 26px;
+  font-weight: bold;
+  margin-block-start: 0!important;
+    margin-block-end: 0!important;
+
+}
+
+.content-inner{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.spalte-eins{
+  padding-right: 14px;
+}
+.tile-text2{
+  color: #717171;
+  display: block;
+  padding-bottom: 20px; 
+}
+
+.border-top{
+  border-right: 2px white;
+}
+/* * {box-sizing: border-box} */
+/* body {font-family: Verdana, sans-serif; margin:0} */
+.mySlides {
+  display: none;
+}
+/* img {vertical-align: middle;} */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100vw;
+  position: relative;
+  margin: auto;
+}
+.divider{
+  border-top: 3px solid white !important;
+  display: block;
+  margin-bottom: 20px;
+  width: 20px;
+}
+#section-4{
+  display: block;
+}
+.appear {
+  -webkit-animation-name: appear;
+  -webkit-animation-duration: 1.5s;
+  animation-name: appear;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+.display-flex {
+  display: flex;
+}
+.kleiner-als:before {
+  content: "<";
+  padding-right: 7px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-list {
+  list-style: none;
+  display: flex;
+}
+.footer-inhalt {
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+.bild-wrapper{
+  height: 100%;
+  width: 50%;
+}
+.bild{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 500px;
+
+}
+.section7{
+  height: 100vh;
+}
+.buy-bild-wrapper{
+  
+  width: 30%;
+  }
+  .buy-bild{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+.section-bild {
+  display: flex;
+  /* width: 50%; */
+}
+.bestell-abschnitt {
+  padding: 140px 0 140px 140px;
+}
+.container-section7 {
+  display: flex;
+  margin: auto 100px;
+}
+
+
+/* Medie Rules/ Responsive Design */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1184px;
+    max-width: 100%;
+  }
+}
+@media  (min-width: 992px) {
+  .container {
+    width: 976px;
+    max-width: 100%;
+  }
+}
+/* Tablet */
+
+@media (min-width: 768px) {
+  .container {
+    width: 752px;
+    max-width: 100%;
+  }
+}
+@media  (min-width: 576px) {
+  .container {
+    width: 560px;
+    max-width: 100%;
+  }
+}
+/* Smartphone */
+
+@media (max-width:414px){
+
+}
